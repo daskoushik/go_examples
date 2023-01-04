@@ -1,31 +1,96 @@
-GO - Demo
-04 Jan 2023
+# GO - Fundamentals
+Hands On Demo Slides
+05 Jan 2023
 
 Koushik Das
+Technical Lead | Netcracker
 koushik.das@netcracker.com
 
-* Format your Slides 
-Let's try *bold*.
+: Let's start the hands on slides of Golang. https://go-talks.appspot.com/github.com/daskoushik/go_examples/go_demo.slide
 
-How do you like _italic_?
-
-`Program` `Font` 
-
-_A_lot_of_italic_text_
-
-
-* Images
+## Golang-Logo
 .image Golang-Logo.jpg
 
-* Display and highlight code
-.code hello.go
-Display Partial code
-.code hello.go /^//START/,/^//END/ HL12
+## Hello World
+.play -edit HelloWorld.go
 
-* Run your Go code
-.play hello.go HL23
+## Variables
+.play -edit Variables.go
 
-* Bullet Points
-- First bullet point
-- One more
-- Last one!
+## Arrays
+.play -edit Arrays.go
+
+## Slices
+.play -edit Slices.go
+
+## Map
+.play -edit Maps.go
+
+## Functions
+.play -edit Functions.go
+
+## Anonymous Functions
+.play -edit AnonymousFunction.go
+
+## Variadic Functions
+.play -edit VariadicFunction.go
+
+## If, Else If, Else
+.play -edit IfElse.go
+
+## For
+.play -edit ForLoop.go
+
+## Switch
+.play -edit Switch.go
+
+## Structs
+.play -edit Structs.go
+
+## Method
+.play -edit Method.go
+
+## Interface
+.play -edit Interface.go
+
+## Multiple Return Function
+.play -edit MultipleReturn.go
+
+## Defer
+.play -edit Defer.go
+
+## Panic
+.play -edit Panic.go
+
+## Recover
+.play -edit Recover.go
+
+## Closure
+.play -edit Closures.go
+
+## Goroutine
+.play -edit Goroutines.go
+
+## Channel
+.play -edit Channels.go
+
+## Buffered Channel
+.play -edit ChannelBuffering.go
+
+## Wait Group
+.play -edit WaitGroups.go
+
+## Select
+.play -edit Select.go
+
+## Generics
+.play -edit Generics.go
+
+
+## Run any Go code on the Fly
+.iframe https://goplay.tools/ 600 1000
+
+## Reference
+- https://go.dev/tour/list
+- https://go.dev/learn/
+- https://cs.opensource.google/go/go
